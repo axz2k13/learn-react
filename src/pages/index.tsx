@@ -4,12 +4,12 @@
 // import styles from '@/styles/Home.module.css'
 import Profile from './qcomps/profile_mistake'
 import RecipeList from './qcomps/recipes'
+import Scoreboard from './qcomps/updObjectsForm'
 
 export default function Home() {
   return (
     <div>
-      <Profile />
-      <RecipeList />
+      <Scoreboard />
     </div>
   )
 }
